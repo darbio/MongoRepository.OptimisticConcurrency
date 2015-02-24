@@ -1,6 +1,8 @@
 MongoRepository.OptimisticConcurrency
 ===
 
+[![Build status](https://ci.appveyor.com/api/projects/status/uhcew10mawi2vslt?svg=true)](https://ci.appveyor.com/project/darbio/mongorepository-optimisticconcurrency)
+
 Basic optimistic concurrency implemented on top of the [MongoRepository](https://github.com/RobThree/MongoRepository/wiki/Documentation) project.
 
 The repository will add an `_accessId` property to your entity in Mongo DB, and will throw a `MongoConcurrencyException` if optimistic concurrency is violated.
